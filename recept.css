@@ -1,0 +1,91 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #52b2cf;
+}
+
+li {
+    margin-left: 30px;
+    float:Left;
+}
+
+li a {
+    display: block;
+    border-radius: 20px;
+    background-color: #fffbeb;
+    color: #7b81ab;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px 18px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin: 10px;
+    margin-top:40px;
+    text-decoration:none;
+}
+
+li a:hover:not(.active) {
+  background-color: #fff1cc;
+}
+
+.active {
+  background-color: #d8d5f2;
+}
+
+
+body{
+    background-color: ghostwhite;
+}
+
+img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: lightsteelblue;
+    margin-left: 20px;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #52b2cf;
+    border-style: outset;
+    border-color:;
+    margin-left: 10px;
+}
+p1{
+    color: white;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    line-height: 22px;
+    color: darkslateblue;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightsteelblue;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

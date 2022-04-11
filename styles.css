@@ -1,0 +1,87 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #52b2cf;
+}
+
+li {
+    margin-left: 30px;
+    float:Left;
+}
+
+li a {
+    display: block;
+    border-radius: 20px;
+    background-color: #fffbeb;
+    color: #7b81ab;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px 18px;
+    padding-right: 70px;
+    padding-left: 70px;
+    margin: 10px;
+    margin-top:40px;
+    text-decoration:none;
+}
+
+li a:hover:not(.active) {
+  background-color: #fff1cc;
+}
+
+.active {
+  background-color: #d8d5f2;
+}
+
+
+body{
+    background-color: ghostwhite;
+}
+
+img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 12px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: lightsteelblue;
+    margin-left: 20px;
+    margin-left: 10px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:lightcoral;
+    border-style: outset;
+    border-color:;
+    margin-left: 10px;
+}
+p1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 15px;
+    color: darkslateblue;
+}
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      Column
+    </div>
+    <div class="col">
+      Column
+    </div>
+  </div>
+</div>
